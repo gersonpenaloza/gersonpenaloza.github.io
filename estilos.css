@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+body{
+    background-image: linear-gradient(to top, #4a65b1 0%, #637599 100%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.tareas{
+    list-style: none;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.tareas__link{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s all ease-in ;
+    font-family: 'Karla', sans-serif;
+}
+
+.tareas__link:hover{
+    font-size: 1.3rem;
+}
